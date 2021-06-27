@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Bold.ttf">
+            <string>Raleway-Bold</string>
+        </array>
+        <array key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="226" id="KGk-i7-Jjw" customClass="TotalOderPriceTableViewCell" customModule="smoothies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="226"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="225.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QBZ-WH-bYR">
+                        <rect key="frame" x="20" y="15" width="280" height="1"/>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="xRl-Kh-8Pq"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="TOTAL:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6O9-XT-QSa">
+                        <rect key="frame" x="20" y="31" width="60" height="24"/>
+                        <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.70196078429999997" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="50USD" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="he8-fV-Svh">
+                        <rect key="frame" x="150" y="31" width="150" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="Hm1-vk-tN9"/>
+                            <constraint firstAttribute="width" constant="150" id="lEQ-CT-Yye"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9j3-lp-bKj">
+                        <rect key="frame" x="20" y="70" width="280" height="1"/>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="UrB-Kz-M6m"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mx1-V3-755">
+                        <rect key="frame" x="20" y="71" width="280" height="70"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGl-KM-CRE">
+                                <rect key="frame" x="0.0" y="20" width="280" height="50"/>
+                                <color key="backgroundColor" red="0.47450980390000003" green="0.56470588239999997" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="8ND-3Z-3uo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="19"/>
+                                <state key="normal" title="4242424424244">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="AIj-n7-Nep"/>
+                            <constraint firstAttribute="trailing" secondItem="RGl-KM-CRE" secondAttribute="trailing" id="JeA-A9-4MX"/>
+                            <constraint firstItem="RGl-KM-CRE" firstAttribute="leading" secondItem="mx1-V3-755" secondAttribute="leading" id="dbE-lk-zJw"/>
+                            <constraint firstAttribute="bottom" secondItem="RGl-KM-CRE" secondAttribute="bottom" id="eAQ-nk-8bV"/>
+                            <constraint firstItem="RGl-KM-CRE" firstAttribute="top" secondItem="mx1-V3-755" secondAttribute="top" constant="20" id="uBW-Et-Umc"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxG-DY-02Q">
+                        <rect key="frame" x="20" y="161" width="280" height="50"/>
+                        <color key="backgroundColor" red="0.0" green="0.70196078429999997" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="qb3-U7-Qtw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="19"/>
+                        <state key="normal" title="Order Ingredients">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QBZ-WH-bYR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="04e-CO-5mF"/>
+                    <constraint firstItem="he8-fV-Svh" firstAttribute="centerY" secondItem="6O9-XT-QSa" secondAttribute="centerY" id="4EH-KJ-SLL"/>
+                    <constraint firstItem="9j3-lp-bKj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Ci3-qA-eYf"/>
+                    <constraint firstAttribute="trailing" secondItem="QBZ-WH-bYR" secondAttribute="trailing" constant="20" id="D2X-xu-5e7"/>
+                    <constraint firstItem="6O9-XT-QSa" firstAttribute="top" secondItem="QBZ-WH-bYR" secondAttribute="bottom" constant="15" id="E5w-Lt-gG9"/>
+                    <constraint firstItem="mx1-V3-755" firstAttribute="top" secondItem="9j3-lp-bKj" secondAttribute="bottom" id="FON-t0-BfB"/>
+                    <constraint firstItem="9j3-lp-bKj" firstAttribute="top" secondItem="he8-fV-Svh" secondAttribute="bottom" constant="15" id="QLs-V1-oYC"/>
+                    <constraint firstAttribute="trailing" secondItem="he8-fV-Svh" secondAttribute="trailing" constant="20" id="SlS-xg-ild"/>
+                    <constraint firstAttribute="trailing" secondItem="9j3-lp-bKj" secondAttribute="trailing" constant="20" id="aBK-wK-MO8"/>
+                    <constraint firstAttribute="trailing" secondItem="RxG-DY-02Q" secondAttribute="trailing" constant="20" id="aUq-0h-5LC"/>
+                    <constraint firstItem="6O9-XT-QSa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="bwp-0A-sDS"/>
+                    <constraint firstItem="9j3-lp-bKj" firstAttribute="top" secondItem="6O9-XT-QSa" secondAttribute="bottom" constant="15" id="dYU-Ao-aul"/>
+                    <constraint firstItem="6O9-XT-QSa" firstAttribute="height" secondItem="he8-fV-Svh" secondAttribute="height" id="eZK-lC-jTk"/>
+                    <constraint firstItem="mx1-V3-755" firstAttribute="trailing" secondItem="RxG-DY-02Q" secondAttribute="trailing" id="kpb-RE-2pf"/>
+                    <constraint firstItem="RxG-DY-02Q" firstAttribute="top" secondItem="mx1-V3-755" secondAttribute="bottom" constant="20" id="qeA-FZ-35W"/>
+                    <constraint firstItem="mx1-V3-755" firstAttribute="leading" secondItem="RxG-DY-02Q" secondAttribute="leading" id="ryV-2j-7Xi"/>
+                    <constraint firstItem="RxG-DY-02Q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="xSD-0j-Ugy"/>
+                    <constraint firstItem="QBZ-WH-bYR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="zdK-Nq-egQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="orderButton" destination="RxG-DY-02Q" id="YcA-nO-o1e"/>
+                <outlet property="paymentMethodButton" destination="RGl-KM-CRE" id="gV9-I6-bxV"/>
+                <outlet property="paymentViewHeight" destination="AIj-n7-Nep" id="JHF-TT-LKg"/>
+                <outlet property="totalLabel" destination="he8-fV-Svh" id="ztE-tp-vDb"/>
+            </connections>
+            <point key="canvasLocation" x="52.799999999999997" y="169.11544227886057"/>
+        </tableViewCell>
+    </objects>
+</document>

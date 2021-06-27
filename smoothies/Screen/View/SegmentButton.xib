@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Medium.ttf">
+            <string>Raleway-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SegmentButton" customModule="smoothies" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="m54-Iv-pst" id="4F4-DC-Kvl"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="lej-Fq-dzV"/>
+                <outlet property="segmentView" destination="yUI-tY-Uu9" id="v1U-xb-slh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="201" height="36"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m54-Iv-pst">
+                    <rect key="frame" x="0.0" y="0.0" width="201" height="34"/>
+                    <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yUI-tY-Uu9">
+                    <rect key="frame" x="0.0" y="34" width="201" height="2"/>
+                    <color key="backgroundColor" red="0.55294117649999996" green="0.74509803919999995" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="HKb-Si-e3N"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="yUI-tY-Uu9" secondAttribute="bottom" id="3dK-B4-3un"/>
+                <constraint firstItem="m54-Iv-pst" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="3dv-IW-BKa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="m54-Iv-pst" secondAttribute="trailing" id="Duj-Cz-9V3"/>
+                <constraint firstAttribute="trailing" secondItem="yUI-tY-Uu9" secondAttribute="trailing" id="GjQ-dO-NsC"/>
+                <constraint firstItem="yUI-tY-Uu9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="SYe-Jh-wZq"/>
+                <constraint firstItem="m54-Iv-pst" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Znn-H7-c5N"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="m54-Iv-pst" secondAttribute="bottom" constant="2" id="a1a-IV-gPb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-10.4" y="483.95802098950526"/>
+        </view>
+    </objects>
+</document>

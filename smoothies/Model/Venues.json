@@ -1,0 +1,1088 @@
+{
+    "meta":{
+        "code":200,
+        "requestId":"59b3feac4434b92c3adf87f1"
+    },
+    "response":{
+        "venues":[
+                  {
+                  "id":"44f17480f964a52004381fe3",
+                  "name":"Starbucks Marshall",
+                  "contact":{
+                  "phone":"4158617660",
+                  "formattedPhone":"(415) 861-7660",
+                  "twitter":"starbucks",
+                  "facebook":"22092443056",
+                  "facebookUsername":"Starbucks",
+                  "facebookName":"Starbucks"
+                  },
+                  "location":{
+                  "address":"177 Marshall Street",
+                  "crossStreet":"Inside Square Mall",
+                  "lat":43.041678,
+                  "lng":-76.13503,
+                  "labeledLatLngs":[
+                                    {
+                                    "label":"display",
+                                    "lat":43.041678,
+                                    "lng":-76.13503
+                                    }
+                                    ],
+                  "distance":693,
+                  "postalCode":"13210",
+                  "cc":"US",
+                  "city":"Syracuse",
+                  "state":"NY",
+                  "country":"United States",
+                  "formattedAddress":[
+                                      "177 Marshall Street,(Inside Square Mall)",
+                                      "Syracuse, NYC 13210",
+                                      "United States"
+                                      ]
+                  },
+                  "categories":[
+                                {
+                                "id":"4bf58dd8d48988d1e0931735",
+                                "name":"Coffee Shop",
+                                "pluralName":"Coffee Shops",
+                                "shortName":"Coffee Shop",
+                                "icon":{
+                                "prefix":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                                "suffix":".png"
+                                },
+                                "primary":true
+                                }
+                                ],
+                  "verified":true,
+                  "stats":{
+                  "checkinsCount":8682,
+                  "usersCount":2195,
+                  "tipCount":25
+                  },
+                  "url":"http:\/\/starbucks.com\/store-locator\/store\/11053",
+                  "hasMenu":true,
+                  "menu":{
+                  "type":"Menu",
+                  "label":"Menu",
+                  "anchor":"View Menu",
+                  "url":"https:\/\/foursquare.com\/v\/starbucks\/44f17480f964a52004381fe3\/menu",
+                  "mobileUrl":"https:\/\/foursquare.com\/v\/44f17480f964a52004381fe3\/device_menu"
+                  },
+                  "allowMenuUrlEdit":true,
+                  "beenHere":{
+                  "lastCheckinExpiredAt":0
+                  },
+                  "specials":{
+                  "count":0,
+                  "items":[
+                  
+                  ]
+                  },
+                  "storeId":"74151",
+                  "hereNow":{
+                  "count":0,
+                  "summary":"Nobody here",
+                  "groups":[
+                  
+                  ]
+                  },
+                  "referralId":"v-1504968365",
+                  "venueChains":[
+                                 {
+                                 "id":"556f676fbd6a75a99038d8ec"
+                                 }
+                                 ],
+                  "hasPerk":false
+                  },
+                  {
+                  "id":"49d10490f964a520505b1fe3",
+                  "name":"Starbucks E Jefferson",
+                  "contact":{
+                  "phone":"4154748930",
+                  "formattedPhone":"(415) 474-8930",
+                  "twitter":"starbucks",
+                  "facebook":"22092443056",
+                  "facebookUsername":"Starbucks",
+                  "facebookName":"Starbucks"
+                  },
+                  "location":{
+                  "address":"E Jefferson St, Syracuse",
+                  "crossStreet":"at Jefferson St",
+                  "lat":43.046952,
+                  "lng":-76.149776,
+                  "labeledLatLngs":[
+                                    {
+                                    "label":"display",
+                                    "lat":43.046952,
+                                    "lng":-76.149776
+                                    }
+                                    ],
+                  "distance":1319,
+                  "postalCode":"13202",
+                  "cc":"US",
+                  "city":"Syracuse",
+                  "state":"NY",
+                  "country":"United States",
+                  "formattedAddress":[
+                                      "E Jefferson St, Syracuse (at Jefferson St)",
+                                      "Syracuse, NYC 13202",
+                                      "United States"
+                                      ]
+                  },
+                  "categories":[
+                                {
+                                "id":"4bf58dd8d48988d1e0931735",
+                                "name":"Coffee Shop",
+                                "pluralName":"Coffee Shops",
+                                "shortName":"Coffee Shop",
+                                "icon":{
+                                "prefix":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                                "suffix":".png"
+                                },
+                                "primary":true
+                                }
+                                ],
+                  "verified":true,
+                  "stats":{
+                  "checkinsCount":7118,
+                  "usersCount":1800,
+                  "tipCount":23
+                  },
+                  "url":"http:\/\/www.starbucks.com\/store\/16589\/",
+                  "hasMenu":true,
+                  "menu":{
+                  "type":"Menu",
+                  "label":"Menu",
+                  "anchor":"View Menu",
+                  "url":"http:\/\/www.starbucks.com\/menu",
+                  "mobileUrl":"http:\/\/www.starbucks.com\/menu",
+                  "externalUrl":"http:\/\/www.starbucks.com\/menu"
+                  },
+                  "allowMenuUrlEdit":true,
+                  "beenHere":{
+                  "lastCheckinExpiredAt":0
+                  },
+                  "specials":{
+                  "count":0,
+                  "items":[
+                  
+                  ]
+                  },
+                  "storeId":"5395",
+                  "hereNow":{
+                  "count":0,
+                  "summary":"Nobody here",
+                  "groups":[
+                  
+                  ]
+                  },
+                  "referralId":"v-1504968365",
+                  "venueChains":[
+                                 {
+                                 "id":"556f676fbd6a75a99038d8ec"
+                                 }
+                                 ],
+                  "hasPerk":false
+                  },
+                  {
+                  "id":"49bee717f964a520f3541fe3",
+                  "name":"Starbucks Campus West",
+                  "contact":{
+                  "phone":"4158638332",
+                  "formattedPhone":"(415) 863-8332",
+                  "twitter":"starbucks",
+                  "facebook":"22092443056",
+                  "facebookUsername":"Starbucks",
+                  "facebookName":"Starbucks"
+                  },
+                  "location":{
+                  "address":"Campus West Housing, 150 Henry St",
+                  "crossStreet":"at Campus West",
+                  "lat":43.034946,
+                  "lng": -76.140518,
+                  "labeledLatLngs":[
+                                    {
+                                    "label":"display",
+                                    "lat":43.034946,
+                                    "lng": -76.140518
+                                    }
+                                    ],
+                  "distance":1255,
+                  "postalCode":"13244",
+                  "cc":"US",
+                  "city":"Syracuse",
+                  "state":"NY",
+                  "country":"United States",
+                  "formattedAddress":[
+                                      "Campus West Housing, 150 Henry St (at Campus West)",
+                                      "Syracuse, NYC 13244",
+                                      "United States"
+                                      ]
+                  },
+                  "categories":[
+                                {
+                                "id":"4bf58dd8d48988d1e0931735",
+                                "name":"Coffee Shop",
+                                "pluralName":"Coffee Shops",
+                                "shortName":"Coffee Shop",
+                                "icon":{
+                                "prefix":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                                "suffix":".png"
+                                },
+                                "primary":true
+                                }
+                                ],
+                  "verified":true,
+                  "stats":{
+                  "checkinsCount":10896,
+                  "usersCount":3013,
+                  "tipCount":38
+                  },
+                  "url":"http:\/\/www.starbucks.com\/store\/13881\/",
+                  "hasMenu":true,
+                  "menu":{
+                  "type":"Menu",
+                  "label":"Menu",
+                  "anchor":"View Menu",
+                  "url":"http:\/\/www.starbucks.com\/menu",
+                  "mobileUrl":"http:\/\/www.starbucks.com\/menu",
+                  "externalUrl":"http:\/\/www.starbucks.com\/menu"
+                  },
+                  "allowMenuUrlEdit":true,
+                  "beenHere":{
+                  "lastCheckinExpiredAt":0
+                  },
+                  "specials":{
+                  "count":0,
+                  "items":[
+                  
+                  ]
+                  },
+                  "storeId":"6937",
+                  "hereNow":{
+                  "count":0,
+                  "summary":"Nobody here",
+                  "groups":[
+                  
+                  ]
+                  },
+                  "referralId":"v-1504968365",
+                  "venueChains":[
+                                 {
+                                 "id":"556f676fbd6a75a99038d8ec"
+                                 }
+                                 ],
+                  "hasPerk":false
+                  },
+                  {
+                  "id":"49fa1dc1f964a520c16d1fe3",
+                  "name":"Starbucks Destiny USA",
+                  "contact":{
+                  "phone":"4156266263",
+                  "formattedPhone":"(415) 626-6263",
+                  "twitter":"starbucks",
+                  "facebook":"22092443056",
+                  "facebookUsername":"Starbucks",
+                  "facebookName":"Starbucks"
+                  },
+                  "location":{
+                  "address":" 9737 Carousel Center",
+                  "crossStreet":"at Destiny Mall",
+                  "lat":43.073475,
+                  "lng": -76.17229,
+                  "labeledLatLngs":[
+                                    {
+                                    "label":"display",
+                                    "lat":43.073475,
+                                    "lng": -76.17229
+                                    }
+                                    ],
+                  "distance":1577,
+                  "postalCode":"13290",
+                  "cc":"US",
+                  "city":"Syracuse",
+                  "state":"NY",
+                  "country":"United States",
+                  "formattedAddress":[
+                                      "9737 Carousel Center (at Destiny Mall)",
+                                      "Syracuse, NYC 13290",
+                                      "United States"
+                                      ]
+                  },
+                  "categories":[
+                                {
+                                "id":"4bf58dd8d48988d1e0931735",
+                                "name":"Coffee Shop",
+                                "pluralName":"Coffee Shops",
+                                "shortName":"Coffee Shop",
+                                "icon":{
+                                "prefix":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                                "suffix":".png"
+                                },
+                                "primary":true
+                                }
+                                ],
+                  "verified":true,
+                  "stats":{
+                  "checkinsCount":20741,
+                  "usersCount":5379,
+                  "tipCount":53
+                  },
+                  "url":"http:\/\/www.starbucks.com\/store\/16848\/",
+                  "hasMenu":true,
+                  "menu":{
+                  "type":"Menu",
+                  "label":"Menu",
+                  "anchor":"View Menu",
+                  "url":"http:\/\/www.starbucks.com\/menu",
+                  "mobileUrl":"http:\/\/www.starbucks.com\/menu",
+                  "externalUrl":"http:\/\/www.starbucks.com\/menu"
+                  },
+                  "allowMenuUrlEdit":true,
+                  "beenHere":{
+                  "lastCheckinExpiredAt":0
+                  },
+                  "specials":{
+                  "count":0,
+                  "items":[
+                  
+                  ]
+                  },
+                  "storeId":"9212",
+                  "hereNow":{
+                  "count":0,
+                  "summary":"Nobody here",
+                  "groups":[
+                  
+                  ]
+                  },
+                  "referralId":"v-1504968365",
+                  "venueChains":[
+                                 {
+                                 "id":"556f676fbd6a75a99038d8ec"
+                                 }
+                                 ],
+                  "hasPerk":false
+                  },
+                  {
+                  "id":"44ca4a54f964a520fa351fe3",
+                  "name":"Starbucks Price Chopper",
+                  "contact":{
+                  "phone":"4155657385",
+                  "formattedPhone":"(415) 565-7385",
+                  "twitter":"starbucks",
+                  "facebook":"22092443056",
+                  "facebookUsername":"Starbucks",
+                  "facebookName":"Starbucks"
+                  },
+                  "location":{
+                  "address":"2515 Erie Blvd E",
+                  "lat":43.054751,
+                  "lng":-76.101988,
+                  "labeledLatLngs":[
+                                    {
+                                    "label":"display",
+                                    "lat":43.054751,
+                                    "lng":-76.101988
+                                    }
+                                    ],
+                  "distance":1593,
+                  "postalCode":"13224",
+                  "cc":"US",
+                  "city":"Syracuse",
+                  "state":"NY",
+                  "country":"United States",
+                  "formattedAddress":[
+                                      "2515 Erie Blvd E",
+                                      "Syracuse, NYC 13224",
+                                      "United States"
+                                      ]
+                  },
+                  "categories":[
+                                {
+                                "id":"4bf58dd8d48988d1e0931735",
+                                "name":"Coffee Shop",
+                                "pluralName":"Coffee Shops",
+                                "shortName":"Coffee Shop",
+                                "icon":{
+                                "prefix":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                                "suffix":".png"
+                                },
+                                "primary":true
+                                }
+                                ],
+                  "verified":true,
+                  "stats":{
+                  "checkinsCount":5104,
+                  "usersCount":1522,
+                  "tipCount":13
+                  },
+                  "url":"http:\/\/www.starbucks.com\/",
+                  "hasMenu":true,
+                  "menu":{
+                  "type":"Menu",
+                  "label":"Menu",
+                  "anchor":"View Menu",
+                  "url":"https:\/\/foursquare.com\/v\/starbucks\/44ca4a54f964a520fa351fe3\/menu",
+                  "mobileUrl":"https:\/\/foursquare.com\/v\/44ca4a54f964a520fa351fe3\/device_menu"
+                  },
+                  "allowMenuUrlEdit":true,
+                  "beenHere":{
+                  "lastCheckinExpiredAt":0
+                  },
+                  "specials":{
+                  "count":0,
+                  "items":[
+                  
+                  ]
+                  },
+                  "storeId":"5585",
+                  "hereNow":{
+                  "count":0,
+                  "summary":"Nobody here",
+                  "groups":[
+                  
+                  ]
+                  },
+                  "referralId":"v-1504968365",
+                  "venueChains":[
+                                 {
+                                 "id":"556f676fbd6a75a99038d8ec"
+                                 }
+                                 ],
+                  "hasPerk":false
+                  },
+                  {
+                  "id":"49e5893bf964a520d6631fe3",
+                  "name":"Starbucks Fayetteville",
+                  "contact":{
+                  "phone":"4153872249",
+                  "formattedPhone":"(415) 387-2249",
+                  "twitter":"starbucks",
+                  "facebook":"22092443056",
+                  "facebookUsername":"Starbucks",
+                  "facebookName":"Starbucks"
+                  },
+                  "location":{
+                  "address":"217 W Genesee St.",
+                  "crossStreet":"at Fayetteville",
+                  "lat":43.029222,
+                  "lng": -76.015071,
+                  "labeledLatLngs":[
+                                    {
+                                    "label":"display",
+                                    "lat":43.029222,
+                                    "lng": -76.015071
+                                    }
+                                    ],
+                  "distance":2298,
+                  "postalCode":"13066",
+                  "cc":"US",
+                  "city":"Syracuse",
+                  "state":"NY",
+                  "country":"United States",
+                  "formattedAddress":[
+                                      "217 W Genesee St. (at Fayetteville)",
+                                      "Syracuse, NYC 13066",
+                                      "United States"
+                                      ]
+                  },
+                  "categories":[
+                                {
+                                "id":"4bf58dd8d48988d1e0931735",
+                                "name":"Coffee Shop",
+                                "pluralName":"Coffee Shops",
+                                "shortName":"Coffee Shop",
+                                "icon":{
+                                "prefix":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                                "suffix":".png"
+                                },
+                                "primary":true
+                                }
+                                ],
+                  "verified":true,
+                  "stats":{
+                  "checkinsCount":16771,
+                  "usersCount":3797,
+                  "tipCount":48
+                  },
+                  "url":"http:\/\/www.starbucks.com\/store\/9025\/",
+                  "hasMenu":true,
+                  "menu":{
+                  "type":"Menu",
+                  "label":"Menu",
+                  "anchor":"View Menu",
+                  "url":"http:\/\/www.starbucks.com\/menu",
+                  "mobileUrl":"http:\/\/www.starbucks.com\/menu",
+                  "externalUrl":"http:\/\/www.starbucks.com\/menu"
+                  },
+                  "allowMenuUrlEdit":true,
+                  "beenHere":{
+                  "lastCheckinExpiredAt":0
+                  },
+                  "specials":{
+                  "count":0,
+                  "items":[
+                  
+                  ]
+                  },
+                  "storeId":"664",
+                  "hereNow":{
+                  "count":0,
+                  "summary":"Nobody here",
+                  "groups":[
+                  
+                  ]
+                  },
+                  "referralId":"v-1504968365",
+                  "venueChains":[
+                                 {
+                                 "id":"556f676fbd6a75a99038d8ec"
+                                 }
+                                 ],
+                  "hasPerk":false
+                  },
+                  {
+                  "id":"4a6a2733f964a520b9cc1fe3",
+                  "name":"Starbucks Target",
+                  "contact":{
+                  "phone":"4159891637",
+                  "formattedPhone":"(415) 989-1637",
+                  "twitter":"starbucks",
+                  "facebook":"22092443056",
+                  "facebookUsername":"Starbucks",
+                  "facebookName":"Starbucks"
+                  },
+                  "location":{
+                  "address":"3657 W Genesee St",
+                  "crossStreet":"at Target",
+                  "lat":43.051986,
+                  "lng":-76.189136,
+                  "labeledLatLngs":[
+                                    {
+                                    "label":"display",
+                                    "lat":43.051986,
+                                    "lng":-76.189136
+                                    }
+                                    ],
+                  "distance":2688,
+                  "postalCode":"13219",
+                  "cc":"US",
+                  "city":"Syracuse",
+                  "state":"NY",
+                  "country":"United States",
+                  "formattedAddress":[
+                                      "3657 W Genesee St. (at Target)",
+                                      "Syracuse, NYC 13219",
+                                      "United States"
+                                      ]
+                  },
+                  "categories":[
+                                {
+                                "id":"4bf58dd8d48988d1e0931735",
+                                "name":"Coffee Shop",
+                                "pluralName":"Coffee Shops",
+                                "shortName":"Coffee Shop",
+                                "icon":{
+                                "prefix":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                                "suffix":".png"
+                                },
+                                "primary":true
+                                }
+                                ],
+                  "verified":true,
+                  "stats":{
+                  "checkinsCount":13240,
+                  "usersCount":6978,
+                  "tipCount":39
+                  },
+                  "url":"http:\/\/www.starbucks.com\/store\/12349\/",
+                  "menu":{
+                  "type":"Menu",
+                  "label":"Menu",
+                  "anchor":"View Menu",
+                  "url":"http:\/\/www.starbucks.com\/menu",
+                  "mobileUrl":"http:\/\/www.starbucks.com\/menu",
+                  "externalUrl":"http:\/\/www.starbucks.com\/menu"
+                  },
+                  "allowMenuUrlEdit":true,
+                  "beenHere":{
+                  "lastCheckinExpiredAt":0
+                  },
+                  "specials":{
+                  "count":0,
+                  "items":[
+                  
+                  ]
+                  },
+                  "storeId":"5757",
+                  "hereNow":{
+                  "count":0,
+                  "summary":"Nobody here",
+                  "groups":[
+                  
+                  ]
+                  },
+                  "referralId":"v-1504968365",
+                  "venueChains":[
+                                 {
+                                 "id":"556f676fbd6a75a99038d8ec"
+                                 }
+                                 ],
+                  "hasPerk":false
+                  },
+                  {
+                  "id":"4a47a834f964a520e6a91fe3",
+                  "name":"Starbucks Liverpool",
+                  "contact":{
+                  "phone":"4154747095",
+                  "formattedPhone":"(415) 474-7095",
+                  "twitter":"starbucks",
+                  "facebook":"22092443056",
+                  "facebookUsername":"Starbucks",
+                  "facebookName":"Starbucks"
+                  },
+                  "location":{
+                  "address":"7567 Oswego Rd",
+                  "crossStreet":"at Oswego Rd",
+                  "lat":43.176364,
+                  "lng":-76.252499,
+                  "labeledLatLngs":[
+                                    {
+                                    "label":"display",
+                                    "lat":43.176364,
+                                    "lng":-76.252499
+                                    }
+                                    ],
+                  "distance":1718,
+                  "postalCode":"13090",
+                  "cc":"US",
+                  "city":"Syracuse",
+                  "state":"NY",
+                  "country":"United States",
+                  "formattedAddress":[
+                                      "7567 Oswego Rd (at Oswego Rd)",
+                                      "Syracuse, NYC 13090",
+                                      "United States"
+                                      ]
+                  },
+                  "categories":[
+                                {
+                                "id":"4bf58dd8d48988d1e0931735",
+                                "name":"Coffee Shop",
+                                "pluralName":"Coffee Shops",
+                                "shortName":"Coffee Shop",
+                                "icon":{
+                                "prefix":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                                "suffix":".png"
+                                },
+                                "primary":true
+                                }
+                                ],
+                  "verified":true,
+                  "stats":{
+                  "checkinsCount":6965,
+                  "usersCount":2493,
+                  "tipCount":14
+                  },
+                  "url":"http:\/\/www.starbucks.com\/store\/11766\/",
+                  "hasMenu":true,
+                  "menu":{
+                  "type":"Menu",
+                  "label":"Menu",
+                  "anchor":"View Menu",
+                  "url":"http:\/\/www.starbucks.com\/menu",
+                  "mobileUrl":"http:\/\/www.starbucks.com\/menu",
+                  "externalUrl":"http:\/\/www.starbucks.com\/menu"
+                  },
+                  "allowMenuUrlEdit":true,
+                  "beenHere":{
+                  "lastCheckinExpiredAt":0
+                  },
+                  "specials":{
+                  "count":0,
+                  "items":[
+                  
+                  ]
+                  },
+                  "storeId":"5405",
+                  "hereNow":{
+                  "count":0,
+                  "summary":"Nobody here",
+                  "groups":[
+                  
+                  ]
+                  },
+                  "referralId":"v-1504968365",
+                  "venueChains":[
+                                 {
+                                 "id":"556f676fbd6a75a99038d8ec"
+                                 }
+                                 ],
+                  "hasPerk":false
+                  },
+                  {
+                  "id":"4589cb20f964a520e23f1fe3",
+                  "name":"Starbucks Broadway",
+                  "contact":{
+                  "phone":"4153467193",
+                  "formattedPhone":"(415) 346-7193",
+                  "twitter":"starbucks",
+                  "facebook":"22092443056",
+                  "facebookUsername":"Starbucks",
+                  "facebookName":"Starbucks"
+                  },
+                  "location":{
+                  "address":"1500 Broadway",
+                  "crossStreet":"at Broadway",
+                  "lat":40.756802,
+                  "lng":-73.985668,
+                  "labeledLatLngs":[
+                                    {
+                                    "label":"display",
+                                    "lat":40.756802,
+                                    "lng":-73.985668
+                                    }
+                                    ],
+                  "distance":1443,
+                  "postalCode":"10019",
+                  "cc":"US",
+                  "city":"New York City",
+                  "state":"NY",
+                  "country":"United States",
+                  "formattedAddress":[
+                                      "1500 Broadway (at Broadway)",
+                                      "New York City, NYC 10019",
+                                      "United States"
+                                      ]
+                  },
+                  "categories":[
+                                {
+                                "id":"4bf58dd8d48988d1e0931735",
+                                "name":"Coffee Shop",
+                                "pluralName":"Coffee Shops",
+                                "shortName":"Coffee Shop",
+                                "icon":{
+                                "prefix":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                                "suffix":".png"
+                                },
+                                "primary":true
+                                }
+                                ],
+                  "verified":true,
+                  "stats":{
+                  "checkinsCount":6763,
+                  "usersCount":1870,
+                  "tipCount":15
+                  },
+                  "url":"http:\/\/www.starbucks.com\/store\/15893\/",
+                  "hasMenu":true,
+                  "menu":{
+                  "type":"Menu",
+                  "label":"Menu",
+                  "anchor":"View Menu",
+                  "url":"http:\/\/www.starbucks.com\/menu",
+                  "mobileUrl":"http:\/\/www.starbucks.com\/menu",
+                  "externalUrl":"http:\/\/www.starbucks.com\/menu"
+                  },
+                  "allowMenuUrlEdit":true,
+                  "beenHere":{
+                  "lastCheckinExpiredAt":0
+                  },
+                  "specials":{
+                  "count":0,
+                  "items":[
+                  
+                  ]
+                  },
+                  "storeId":"5287",
+                  "hereNow":{
+                  "count":0,
+                  "summary":"Nobody here",
+                  "groups":[
+                  
+                  ]
+                  },
+                  "referralId":"v-1504968365",
+                  "venueChains":[
+                                 {
+                                 "id":"556f676fbd6a75a99038d8ec"
+                                 }
+                                 ],
+                  "hasPerk":false
+                  },
+                  {
+                  "id":"4a1e071af964a520bb7b1fe3",
+                  "name":"Starbucks Broadway",
+                  "contact":{
+                  "phone":"4155522649",
+                  "formattedPhone":"(415) 552-2649",
+                  "twitter":"starbucks",
+                  "facebook":"22092443056",
+                  "facebookUsername":"Starbucks",
+                  "facebookName":"Starbucks"
+                  },
+                  "location":{
+                  "address":"405 Broadway",
+                  "crossStreet":"at Broadway",
+                  "lat":40.718956,
+                  "lng": -74.002628,
+                  "labeledLatLngs":[
+                                    {
+                                    "label":"display",
+                                    "lat":40.718956,
+                                    "lng": -74.002628
+                                    }
+                                    ],
+                  "distance":2105,
+                  "postalCode":"10013",
+                  "cc":"US",
+                  "city":"New York City",
+                  "state":"NY",
+                  "country":"United States",
+                  "formattedAddress":[
+                                      "405 Broadway (at Broadway)",
+                                      "New York City, NYC 10013",
+                                      "United States"
+                                      ]
+                  },
+                  "categories":[
+                                {
+                                "id":"4bf58dd8d48988d1e0931735",
+                                "name":"Coffee Shop",
+                                "pluralName":"Coffee Shops",
+                                "shortName":"Coffee Shop",
+                                "icon":{
+                                "prefix":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                                "suffix":".png"
+                                },
+                                "primary":true
+                                }
+                                ],
+                  "verified":true,
+                  "stats":{
+                  "checkinsCount":8916,
+                  "usersCount":2285,
+                  "tipCount":49
+                  },
+                  "url":"http:\/\/www.starbucks.com\/",
+                  "hasMenu":true,
+                  "menu":{
+                  "type":"Menu",
+                  "label":"Menu",
+                  "anchor":"View Menu",
+                  "url":"https:\/\/foursquare.com\/v\/starbucks\/4a1e071af964a520bb7b1fe3\/menu",
+                  "mobileUrl":"https:\/\/foursquare.com\/v\/4a1e071af964a520bb7b1fe3\/device_menu"
+                  },
+                  "allowMenuUrlEdit":true,
+                  "beenHere":{
+                  "lastCheckinExpiredAt":0
+                  },
+                  "specials":{
+                  "count":0,
+                  "items":[
+                  
+                  ]
+                  },
+                  "storeId":"6605",
+                  "hereNow":{
+                  "count":0,
+                  "summary":"Nobody here",
+                  "groups":[
+                  
+                  ]
+                  },
+                  "referralId":"v-1504968365",
+                  "venueChains":[
+                                 {
+                                 "id":"556f676fbd6a75a99038d8ec"
+                                 }
+                                 ],
+                  "hasPerk":false
+                  },
+                  {
+                  "id":"4a6a452ef964a52001cd1fe3",
+                  "name":"Starbucks Taf Rd",
+                  "contact":{
+                  "phone":"4152969056",
+                  "formattedPhone":"(415) 296-9056",
+                  "twitter":"starbucks",
+                  "facebook":"22092443056",
+                  "facebookUsername":"Starbucks",
+                  "facebookName":"Starbucks"
+                  },
+                  "location":{
+                  "address":"2188 Tag Rd",
+                  "crossStreet":"at Canastota",
+                  "lat":43.098293,
+                  "lng":-75.842146,
+                  "labeledLatLngs":[
+                                    {
+                                    "label":"display",
+                                    "lat":43.098293,
+                                    "lng":-75.842146
+                                    }
+                                    ],
+                  "distance":2324,
+                  "postalCode":"13032",
+                  "cc":"US",
+                  "city":"Syracuse",
+                  "state":"NY",
+                  "country":"United States",
+                  "formattedAddress":[
+                                      "2188 Tag Rd (at Canastota)",
+                                      "Canastota, NYC 13032",
+                                      "United States"
+                                      ]
+                  },
+                  "categories":[
+                                {
+                                "id":"4bf58dd8d48988d1e0931735",
+                                "name":"Coffee Shop",
+                                "pluralName":"Coffee Shops",
+                                "shortName":"Coffee Shop",
+                                "icon":{
+                                "prefix":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                                "suffix":".png"
+                                },
+                                "primary":true
+                                }
+                                ],
+                  "verified":true,
+                  "stats":{
+                  "checkinsCount":12651,
+                  "usersCount":6837,
+                  "tipCount":53
+                  },
+                  "url":"http:\/\/www.starbucks.com\/store\/11405\/",
+                  "menu":{
+                  "type":"Menu",
+                  "label":"Menu",
+                  "anchor":"View Menu",
+                  "url":"http:\/\/www.starbucks.com\/menu",
+                  "mobileUrl":"http:\/\/www.starbucks.com\/menu",
+                  "externalUrl":"http:\/\/www.starbucks.com\/menu"
+                  },
+                  "allowMenuUrlEdit":true,
+                  "beenHere":{
+                  "lastCheckinExpiredAt":0
+                  },
+                  "specials":{
+                  "count":0,
+                  "items":[
+                  
+                  ]
+                  },
+                  "storeId":"75966",
+                  "hereNow":{
+                  "count":1,
+                  "summary":"One other person is here",
+                  "groups":[
+                            {
+                            "type":"others",
+                            "name":"Other people here",
+                            "count":1,
+                            "items":[
+                            
+                            ]
+                            }
+                            ]
+                  },
+                  "referralId":"v-1504968365",
+                  "venueChains":[
+                  
+                  ],
+                  "hasPerk":false
+                  },
+                  {
+                  "id":"4ae39806f964a5200f9721e3",
+                  "name":"Starbucks Ithaca",
+                  "contact":{
+                  "phone":"4155673978",
+                  "formattedPhone":"(415) 567-3978",
+                  "twitter":"starbucks",
+                  "facebook":"22092443056",
+                  "facebookUsername":"Starbucks",
+                  "facebookName":"Starbucks"
+                  },
+                  "location":{
+                  "address":"40 Catherwood Rd",
+                  "crossStreet":"at Catherwood Rd",
+                  "lat":42.483294,
+                  "lng":-76.490856,
+                  "labeledLatLngs":[
+                                    {
+                                    "label":"display",
+                                    "lat":42.483294,
+                                    "lng":-76.490856
+                                    }
+                                    ],
+                  "distance":1556,
+                  "postalCode":"14850",
+                  "cc":"US",
+                  "city":"Ithaca",
+                  "state":"NY",
+                  "country":"United States",
+                  "formattedAddress":[
+                                      "40 Catherwood Rd (at Catherwood Rd)",
+                                      "Ithaca, NY 14850",
+                                      "United States"
+                                      ]
+                  },
+                  "categories":[
+                                {
+                                "id":"4bf58dd8d48988d1e0931735",
+                                "name":"Coffee Shop",
+                                "pluralName":"Coffee Shops",
+                                "shortName":"Coffee Shop",
+                                "icon":{
+                                "prefix":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                                "suffix":".png"
+                                },
+                                "primary":true
+                                }
+                                ],
+                  "verified":true,
+                  "stats":{
+                  "checkinsCount":9236,
+                  "usersCount":2451,
+                  "tipCount":21
+                  },
+                  "url":"http:\/\/starbucks.com\/store-locator\/store\/11894",
+                  "hasMenu":true,
+                  "menu":{
+                  "type":"Menu",
+                  "label":"Menu",
+                  "anchor":"View Menu",
+                  "url":"https:\/\/foursquare.com\/v\/starbucks\/4ae39806f964a5200f9721e3\/menu",
+                  "mobileUrl":"https:\/\/foursquare.com\/v\/4ae39806f964a5200f9721e3\/device_menu"
+                  },
+                  "allowMenuUrlEdit":true,
+                  "beenHere":{
+                  "lastCheckinExpiredAt":0
+                  },
+                  "specials":{
+                  "count":0,
+                  "items":[
+                  
+                  ]
+                  },
+                  "storeId":"72129",
+                  "hereNow":{
+                  "count":0,
+                  "summary":"Nobody here",
+                  "groups":[
+                  
+                  ]
+                  },
+                  "referralId":"v-1504968365",
+                  "venueChains":[
+                                 {
+                                 "id":"556f676fbd6a75a99038d8ec"
+                                 }
+                                 ],
+                  "hasPerk":false
+                  }
+                  ]
+    }
+}

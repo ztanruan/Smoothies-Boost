@@ -1,0 +1,41 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'smoothies' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  # RxSwift
+  
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'Cosmos', '~> 18.0'
+  pod 'Stripe'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Functions'
+  pod 'CodableFirebase'
+  pod 'Firebase/Messaging'
+  pod 'DropDown', '2.3.12'
+  pod 'IQKeyboardManager', '6.2.0'
+  pod 'Kingfisher'
+  pod 'SkyFloatingLabelTextField'
+  pod 'Toast-Swift', '4.0.1'
+  pod 'DigitInputView'
+  pod 'JGProgressHUD'
+
+  # Network
+  pod 'Moya/RxSwift'
+
+  target 'smoothiesTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'smoothiesUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Medium.ttf">
+            <string>Raleway-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="81" id="KGk-i7-Jjw" customClass="ServingsTableViewCell" customModule="smoothies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="81"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="386" height="80.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DkH-xH-mWC">
+                        <rect key="frame" x="92" y="9" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="DkH-xH-mWC" secondAttribute="height" multiplier="1:1" id="OGC-lk-MOu"/>
+                            <constraint firstAttribute="width" constant="35" id="RgF-hM-lCR"/>
+                        </constraints>
+                        <state key="normal" image="icon_subtract"/>
+                        <connections>
+                            <action selector="handleMinus:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="MZ5-aI-xbg"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SERVINGS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rMY-bV-u1e">
+                        <rect key="frame" x="163.5" y="51" width="59" height="14.5"/>
+                        <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="12"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAM-l6-lmY">
+                        <rect key="frame" x="259" y="9" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="FLW-Wd-S3o"/>
+                            <constraint firstAttribute="width" secondItem="QAM-l6-lmY" secondAttribute="height" multiplier="1:1" id="brV-cq-gNu"/>
+                        </constraints>
+                        <state key="normal" image="icon_plus"/>
+                        <connections>
+                            <action selector="handleAdd:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="1jc-33-WOT"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcV-aE-KiP">
+                        <rect key="frame" x="143" y="0.0" width="100" height="53"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="eEi-p1-W1h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="45"/>
+                        <color key="textColor" red="0.0" green="0.70196078429999997" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QAM-l6-lmY" firstAttribute="centerY" secondItem="hcV-aE-KiP" secondAttribute="centerY" id="H0k-2t-okV"/>
+                    <constraint firstItem="rMY-bV-u1e" firstAttribute="centerX" secondItem="hcV-aE-KiP" secondAttribute="centerX" id="TCz-9X-h9K"/>
+                    <constraint firstItem="QAM-l6-lmY" firstAttribute="leading" secondItem="hcV-aE-KiP" secondAttribute="trailing" constant="16" id="fsg-wc-OmK"/>
+                    <constraint firstItem="hcV-aE-KiP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="iVZ-30-Jej"/>
+                    <constraint firstItem="hcV-aE-KiP" firstAttribute="leading" secondItem="DkH-xH-mWC" secondAttribute="trailing" constant="16" id="mrc-qg-DQP"/>
+                    <constraint firstItem="DkH-xH-mWC" firstAttribute="width" secondItem="DkH-xH-mWC" secondAttribute="height" multiplier="1:1" id="tVW-bi-BdT"/>
+                    <constraint firstItem="hcV-aE-KiP" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="xDs-0s-J5c"/>
+                    <constraint firstAttribute="bottom" secondItem="rMY-bV-u1e" secondAttribute="bottom" constant="15" id="xMH-em-pyx"/>
+                    <constraint firstItem="DkH-xH-mWC" firstAttribute="centerY" secondItem="hcV-aE-KiP" secondAttribute="centerY" id="xZ1-po-6ZH"/>
+                    <constraint firstItem="rMY-bV-u1e" firstAttribute="top" secondItem="hcV-aE-KiP" secondAttribute="bottom" constant="-2" id="ynb-Ug-SCH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="valueLabel" destination="hcV-aE-KiP" id="qWg-xj-cPR"/>
+            </connections>
+            <point key="canvasLocation" x="182.40000000000001" y="62.518740629685162"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_plus" width="48" height="48"/>
+        <image name="icon_subtract" width="48" height="48"/>
+    </resources>
+</document>
